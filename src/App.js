@@ -2,7 +2,7 @@ import './App.css';
 import {useState} from 'react'
 
 const getImages = async query => {
-    const url = "https://serverless_worker_api.shreyansjain.workers.dev"
+    const url = "https://serverless-api.shreyansjain.workers.dev"
     const resp = await fetch[url, {
         method: "POST",
         body: JSON.stringify({query}),
