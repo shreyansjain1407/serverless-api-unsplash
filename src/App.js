@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <div class="form">
+      <div className="form">
         <input id="query" type="text" onChange={updateQuery} placeholder="Search query" />
         <button onClick={search}>Search</button>
       </div>
